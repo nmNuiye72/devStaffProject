@@ -1,0 +1,7 @@
+.nav{
+  max-height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-right: 83%;
+  /*min-width: 100px;*/
+}
