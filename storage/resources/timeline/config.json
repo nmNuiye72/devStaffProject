@@ -1,0 +1,61 @@
+{
+	"type": "Collection",
+	"properties": {
+		"date": {
+			"name": "date",
+			"type": "number",
+			"typeLabel": "number",
+			"required": true,
+			"id": "date",
+			"order": 0
+		},
+		"month": {
+			"name": "month",
+			"type": "number",
+			"typeLabel": "number",
+			"required": true,
+			"id": "month",
+			"order": 1
+		},
+		"year": {
+			"name": "year",
+			"type": "number",
+			"typeLabel": "number",
+			"required": true,
+			"id": "year",
+			"order": 2
+		},
+		"hour": {
+			"name": "hour",
+			"type": "number",
+			"typeLabel": "number",
+			"required": true,
+			"id": "hour",
+			"order": 3
+		},
+		"minute": {
+			"name": "minute",
+			"type": "number",
+			"typeLabel": "number",
+			"required": true,
+			"id": "minute",
+			"order": 4
+		},
+		"image": {
+			"name": "image",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "image",
+			"order": 5
+		},
+		"message": {
+			"name": "message",
+			"type": "array",
+			"typeLabel": "array",
+			"required": true,
+			"id": "message",
+			"order": 6
+		}
+	}
+}
